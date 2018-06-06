@@ -2,7 +2,7 @@
 
 
 
-### Exercice 1
+### Exercice
 * Dérterminer un mot aléatoire à partir du tableau de mots ci-dessous
 * Créer un form avec un input permettant de saisir un mot et de le soumettre
 * Si le mot saisi correspond au mot aléatoire, afficher **Bravo tu as gagné !**
