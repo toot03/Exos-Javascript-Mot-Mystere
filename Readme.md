@@ -9,6 +9,6 @@
 * Si le mot ne correspond pas, afficher **Raté, essaye encore !***
 
 
-**var mon_tableau = new Array('Voiture','Clé', 'Table', 'Téléphone', 'Jardin', 'Soleil','Chèvre','Développeur', 'Ballon', 'Guitare', 'Lunettes', 'Nuage','Ordinateur','Livre','Chien','Cullotte', 'Mur','Chlorophylle','Portefeuille','Post-it', 'Couleur'));**
+**var mon_tableau = new Array('Voiture','Clé', 'Table', 'Téléphone', 'Jardin', 'Soleil','Chèvre','Développeur', 'Ballon', 'Guitare', 'Lunettes', 'Nuage','Ordinateur','Livre','Chien','Culotte', 'Mur','Chlorophylle','Portefeuille','Post-it', 'Couleur'));**
 
 
