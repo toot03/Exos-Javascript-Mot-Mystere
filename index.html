@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    <label for="mot">Mot proposé: </label>
+    <input type="text" id="mot" class="motPropos" value="">
+    <input class="propose" type="button" value="Proposer">
+</form>
+<script>var mon_tableau = new Array('Voiture','Clé', 'Table', 'Téléphone', 'Jardin', 'Soleil','Chèvre','Développeur', 'Ballon', 'Guitare', 'Lunettes', 'Nuage','Ordinateur','Livre','Chien','Culotte', 'Mur','Chlorophylle','Portefeuille','Post-it', 'Couleur');
+
+var numRandom = mon_tableau[Math.floor(Math.random()*mon_tableau.length)];
+
+document.getElementsByClassName("propose")[0].addEventListener("click",propos);
+function propos() {
+    var mot_propos=document.getElementsByClassName("motPropos")[0].value;
+    if(mot_propos==numRandom){
+        alert("Bravo tu as gagné !");
+    }
+    else{
+        alert("Raté, essaye encore !");
+    }
+}
+
+</script>
+</body>
+</html>
